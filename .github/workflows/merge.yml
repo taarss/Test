@@ -10,3 +10,5 @@ jobs:
         run: echo "CI Pipeline Running!"
       - name: Run tests
         run: bash test_script.sh
+      - name: Run Unit Tests
+        run: pytest test_example.py
